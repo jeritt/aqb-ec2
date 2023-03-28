@@ -6,5 +6,5 @@ basic.forever(function () {
     kitronik_air_quality.measureData()
     kitronik_air_quality.show("Temp: " + kitronik_air_quality.readTemperature(kitronik_air_quality.TemperatureUnitList.F), 1)
     kitronik_air_quality.show("eCO2: " + kitronik_air_quality.readeCO2(), 2)
-    kitronik_air_quality.show("IAQ Score: " + kitronik_air_quality.getAirQualityScore(), 2)
+    kitronik_air_quality.show("IAQ Score: " + kitronik_air_quality.getAirQualityScore(), 3)
 })
